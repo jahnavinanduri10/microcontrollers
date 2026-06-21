@@ -1,0 +1,14 @@
+11:49:58 **** Build of configuration Debug for project first ****
+make -j8 all 
+arm-none-eabi-size  first.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15884	    100	  18380	  34364	   863c	first.elf
+Finished building: default.size.stdout
+ 
+11:50:04 **** Incremental Build of configuration Debug for project first ****
+make -j8 all 
+arm-none-eabi-size  first.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15884	    100	  18380	  34364	   863c	first.elf
+Finished building: default.size.stdout
+ 

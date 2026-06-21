@@ -1,0 +1,20 @@
+2026-05-06 09:27:51,103 [INFO] WebApp:194 - Connection lost
+2026-05-06 09:28:04,392 [INFO] WebApp:191 - Connection restablished
+2026-05-06 09:28:05,586 [INFO] WebApp:194 - Connection lost
+2026-05-06 09:28:05,986 [INFO] WebApp:191 - Connection restablished
+2026-05-06 09:29:49,487 [INFO] WebApp:194 - Connection lost
+2026-05-06 09:29:50,393 [INFO] WebApp:191 - Connection restablished
+2026-05-06 09:54:08,030 [INFO] MainUpdater:2872 - connection check result : 10
+2026-05-06 09:54:08,260 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2026-05-06 09:54:08,267 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2026-05-06 09:54:08,268 [INFO] FinderPluginLoader:96 - Searching for filters in installed packs
+2026-05-06 09:54:11,532 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2026-05-06 09:54:11,534 [INFO] DetailPanel:341 - Set advertising image to C:/Users/jahna/STM32Cube/Repository/\en.prom-stm32wba2-stm32-nucleo-board-0426.png
+2026-05-06 09:54:16,052 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2026-05-06 09:54:16,148 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2026-05-06 09:54:16,148 [INFO] DetailPanel:341 - Set advertising image to C:/Users/jahna/STM32Cube/Repository/\en.prom-stm32wba2-stm32-nucleo-board-0426.png
+2026-05-06 10:08:32,016 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2026-05-06 10:08:34,371 [INFO] ApiDb:448 - Save user favorites file C:\Users\jahna/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2026-05-06 10:08:34,373 [INFO] ApiDb:452 - User favorites MCUs=[]
+2026-05-06 10:08:34,430 [INFO] ApiDb:448 - Save user favorites file C:\Users\jahna/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2026-05-06 10:08:34,434 [INFO] ApiDb:452 - User favorites Boards=[]

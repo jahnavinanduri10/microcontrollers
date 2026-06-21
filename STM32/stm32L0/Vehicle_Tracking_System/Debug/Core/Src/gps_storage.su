@@ -1,0 +1,7 @@
+../Core/Src/gps_storage.c:32:17:slot_addr	16	static
+../Core/Src/gps_storage.c:38:13:meta_save	16	static
+../Core/Src/gps_storage.c:52:6:GPS_Storage_Init	16	static
+../Core/Src/gps_storage.c:80:6:GPS_Storage_Save	96	static
+../Core/Src/gps_storage.c:117:9:GPS_Storage_ReadAll	32	static
+../Core/Src/gps_storage.c:129:6:GPS_Storage_Clear	8	static
+../Core/Src/gps_storage.c:138:9:GPS_Storage_Count	8	static

@@ -1,0 +1,18 @@
+Dependencies for Project 'Real_Time_Clock', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\lcd.c)(0x6A328FAE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (lcd.h)(0x69F1CF56)
+F (.\rtc.c)(0x6A2FA1D1)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (types.h)(0x68E528F4)
+I (rtc_defines.h)(0x6A2FA0BA)
+F (.\main.c)(0x6A32900A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (lcd.h)(0x69F1CF56)
+I (rtc.h)(0x6A2FA1DE)
+I (types.h)(0x68E528F4)
+I (delay.h)(0x68E528F4)
+F (.\delay.c)(0x68E528F4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x68E528F4)

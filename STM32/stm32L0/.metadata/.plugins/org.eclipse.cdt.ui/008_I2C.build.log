@@ -1,0 +1,17 @@
+18:13:44 **** Incremental Build of configuration Debug for project 008_I2C ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_STM32L0538_DISCO_REV_B03 -DUSE_HAL_DRIVER -DSTM32L053xx -c -I"D:/stm32L0/008_I2C/Drivers/BSP/STM32L0538-Discovery" -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "008_I2C.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\stm32L0\008_I2C\STM32L053C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="008_I2C.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 008_I2C.elf
+ 
+arm-none-eabi-size  008_I2C.elf 
+arm-none-eabi-objdump -h -S 008_I2C.elf  > "008_I2C.list"
+   text	   data	    bss	    dec	    hex	filename
+  21608	     80	   1840	  23528	   5be8	008_I2C.elf
+Finished building: default.size.stdout
+ 
+Finished building: 008_I2C.list
+ 
+
+18:13:48 Build Finished. 0 errors, 0 warnings. (took 4s.431ms)
+

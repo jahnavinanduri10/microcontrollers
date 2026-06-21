@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\lcd.o"
+".\rtc.o"
+".\main.o"
+".\delay.o"
+--strict --scatter ".\Real_Time_Clock.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Real_Time_Clock.map" -o .\Real_Time_Clock.axf

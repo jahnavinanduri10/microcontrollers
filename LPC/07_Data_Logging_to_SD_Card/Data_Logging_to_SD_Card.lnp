@@ -1,0 +1,11 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\lcd.o"
+".\main.o"
+".\spi_driver.o"
+".\delay.o"
+".\distance.o"
+--strict --scatter ".\Data_Logging_to_SD_Card.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Data_Logging_to_SD_Card.map" -o .\Data_Logging_to_SD_Card.axf

@@ -1,0 +1,13 @@
+Dependencies for Project '01_LED_Blinking_Pattern', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Keil4\ARM\RV31\INC-I D:\Keil4\ARM\CMSIS\Include-I D:\Keil4\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\01_LED_Source.c)(0x69F04D2C)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Keil4\ARM\RV31\INC-I D:\Keil4\ARM\CMSIS\Include-I D:\Keil4\ARM\Inc\Philips-o .\01_led_source.o --omf_browse .\01_led_source.crf --depend .\01_led_source.d)
+I (D:\Keil4\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (delay.h)(0x69F047C7)
+I (D:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (lpc2148_gpio_driver.h)(0x69F098A5)
+F (.\delay.c)(0x69F0486F)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Keil4\ARM\RV31\INC-I D:\Keil4\ARM\CMSIS\Include-I D:\Keil4\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (D:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+F (.\lpc2148_gpio_driver.c)(0x69F09891)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I D:\Keil4\ARM\RV31\INC-I D:\Keil4\ARM\CMSIS\Include-I D:\Keil4\ARM\Inc\Philips-o .\lpc2148_gpio_driver.o --omf_browse .\lpc2148_gpio_driver.crf --depend .\lpc2148_gpio_driver.d)
+I (D:\Keil4\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (D:\Keil4\ARM\ARMCC\include\stdint.h)(0x51C7E87C)
+I (lpc2148_gpio_driver.h)(0x69F098A5)

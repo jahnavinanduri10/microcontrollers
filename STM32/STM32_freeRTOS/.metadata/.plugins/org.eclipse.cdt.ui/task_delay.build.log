@@ -1,0 +1,10 @@
+11:42:47 **** Incremental Build of configuration Debug for project task_delay ****
+make -j8 all 
+arm-none-eabi-size  task_delay.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16592	     96	  18376	  35064	   88f8	task_delay.elf
+Finished building: default.size.stdout
+ 
+
+11:42:48 Build Finished. 0 errors, 0 warnings. (took 363ms)
+

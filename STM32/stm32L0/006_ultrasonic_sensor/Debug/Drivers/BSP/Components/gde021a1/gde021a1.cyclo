@@ -1,0 +1,10 @@
+../Drivers/BSP/Components/gde021a1/gde021a1.c:108:6:gde021a1_Init	2
+../Drivers/BSP/Components/gde021a1/gde021a1.c:150:6:gde021a1_WritePixel	1
+../Drivers/BSP/Components/gde021a1/gde021a1.c:167:6:gde021a1_SetDisplayWindow	1
+../Drivers/BSP/Components/gde021a1/gde021a1.c:190:10:gde021a1_GetEpdPixelWidth	1
+../Drivers/BSP/Components/gde021a1/gde021a1.c:200:10:gde021a1_GetEpdPixelHeight	1
+../Drivers/BSP/Components/gde021a1/gde021a1.c:211:6:gde021a1_WriteReg	1
+../Drivers/BSP/Components/gde021a1/gde021a1.c:223:9:gde021a1_ReadReg	1
+../Drivers/BSP/Components/gde021a1/gde021a1.c:237:6:gde021a1_RefreshDisplay	1
+../Drivers/BSP/Components/gde021a1/gde021a1.c:255:6:gde021a1_CloseChargePump	1
+../Drivers/BSP/Components/gde021a1/gde021a1.c:278:6:gde021a1_DrawImage	23

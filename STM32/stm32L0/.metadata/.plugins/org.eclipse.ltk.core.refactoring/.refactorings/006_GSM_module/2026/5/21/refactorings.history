@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;006_GSM_module/Core/Src/SIM800&apos; to &apos;SIM800L.c&apos;" description="Rename resource &apos;SIM800&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/SIM800" name="SIM800L.c" stamp="1779268474765" updateReferences="true"/>
+</session>

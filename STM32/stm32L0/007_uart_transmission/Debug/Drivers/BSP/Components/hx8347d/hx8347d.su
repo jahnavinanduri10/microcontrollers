@@ -1,0 +1,15 @@
+../Drivers/BSP/Components/hx8347d/hx8347d.c:105:6:hx8347d_Init	8	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:204:6:hx8347d_DisplayOn	8	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:228:6:hx8347d_DisplayOff	8	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:249:10:hx8347d_GetLcdPixelWidth	8	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:259:10:hx8347d_GetLcdPixelHeight	8	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:269:10:hx8347d_ReadID	8	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:285:6:hx8347d_SetCursor	16	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:300:6:hx8347d_WritePixel	24	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:317:10:hx8347d_ReadPixel	16	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:335:6:hx8347d_WriteReg	16	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:348:10:hx8347d_ReadReg	16	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:362:6:hx8347d_SetDisplayWindow	24	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:389:6:hx8347d_DrawHLine	32	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:417:6:hx8347d_DrawVLine	32	static
+../Drivers/BSP/Components/hx8347d/hx8347d.c:441:6:hx8347d_DrawBitmap	24	static

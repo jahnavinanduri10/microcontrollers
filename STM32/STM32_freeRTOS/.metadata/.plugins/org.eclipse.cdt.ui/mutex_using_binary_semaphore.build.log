@@ -1,0 +1,10 @@
+11:18:35 **** Incremental Build of configuration Debug for project mutex_using_binary_semaphore ****
+make -j8 all 
+arm-none-eabi-size  mutex_using_binary_semaphore.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19916	     96	  18376	  38388	   95f4	mutex_using_binary_semaphore.elf
+Finished building: default.size.stdout
+ 
+
+11:18:36 Build Finished. 0 errors, 0 warnings. (took 559ms)
+

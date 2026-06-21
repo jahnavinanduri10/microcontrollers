@@ -1,0 +1,10 @@
+20:17:05 **** Incremental Build of configuration Debug for project 006_GSM_module ****
+make -j8 all 
+arm-none-eabi-size  006_GSM_module.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28052	    156	   2500	  30708	   77f4	006_GSM_module.elf
+Finished building: default.size.stdout
+ 
+
+20:17:05 Build Finished. 0 errors, 0 warnings. (took 732ms)
+

@@ -1,0 +1,10 @@
+../Core/Src/flash.c:23:6:CS_LOW	8	static
+../Core/Src/flash.c:28:6:CS_HIGH	8	static
+../Core/Src/flash.c:34:6:SPI_Write	24	static
+../Core/Src/flash.c:38:6:SPI_Read	24	static
+../Core/Src/flash.c:43:6:W25Q_WriteEnable	16	static
+../Core/Src/flash.c:51:9:W25Q_ReadStatus	24	static
+../Core/Src/flash.c:62:9:W25Q_WaitBusy	8	static
+../Core/Src/flash.c:68:6:W25Q_EraseSector	32	static
+../Core/Src/flash.c:84:6:W25Q_Write	40	static
+../Core/Src/flash.c:103:6:W25Q_Read	40	static

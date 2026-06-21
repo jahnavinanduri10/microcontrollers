@@ -1,0 +1,10 @@
+../Drivers/BSP/Components/gdem0213b74/gdem0213b74.c:93:6:gdem0213b74_Init	1
+../Drivers/BSP/Components/gdem0213b74/gdem0213b74.c:138:6:gdem0213b74_WritePixel	1
+../Drivers/BSP/Components/gdem0213b74/gdem0213b74.c:155:6:gdem0213b74_SetDisplayWindow	1
+../Drivers/BSP/Components/gdem0213b74/gdem0213b74.c:178:10:gdem0213b74_GetEpdPixelWidth	1
+../Drivers/BSP/Components/gdem0213b74/gdem0213b74.c:188:10:gdem0213b74_GetEpdPixelHeight	1
+../Drivers/BSP/Components/gdem0213b74/gdem0213b74.c:199:6:gdem0213b74_WriteReg	1
+../Drivers/BSP/Components/gdem0213b74/gdem0213b74.c:211:9:gdem0213b74_ReadReg	1
+../Drivers/BSP/Components/gdem0213b74/gdem0213b74.c:225:6:gdem0213b74_RefreshDisplay	1
+../Drivers/BSP/Components/gdem0213b74/gdem0213b74.c:243:6:gdem0213b74_CloseChargePump	1
+../Drivers/BSP/Components/gdem0213b74/gdem0213b74.c:266:6:gdem0213b74_DrawImage	23

@@ -1,0 +1,17 @@
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:118:10:BSP_GetVersion	8	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:131:6:BSP_LED_Init	48	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:157:6:BSP_LED_On	16	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:170:6:BSP_LED_Off	16	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:183:6:BSP_LED_Toggle	16	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:199:6:BSP_PB_Init	40	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:236:10:BSP_PB_GetState	16	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:251:13:SPIx_Init	8	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:283:17:SPIx_Read	40	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:306:13:SPIx_Write	32	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:325:13:SPIx_Error	8	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:339:13:SPIx_MspInit	48	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:373:6:EPD_IO_Init	56	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:429:6:EPD_IO_WriteData	16	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:449:6:EPD_IO_WriteReg	16	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:469:10:EPD_IO_ReadData	8	static
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery.c:486:6:EPD_Delay	16	static

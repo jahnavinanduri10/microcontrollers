@@ -1,0 +1,19 @@
+Dependencies for Project 'Data_Logging_to_SD_Card', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\lcd.c)(0x6A32925F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (lcd.h)(0x69F1CF56)
+F (.\main.c)(0x6A33D792)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (distance.h)(0x6A33CBC7)
+I (lcd.h)(0x69F1CF56)
+I (delay.h)(0x6A33CD9A)
+I (spi_driver.h)(0x69F1E42C)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+F (.\spi_driver.c)(0x6A33D055)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\spi_driver.o --omf_browse .\spi_driver.crf --depend .\spi_driver.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (spi_driver.h)(0x69F1E42C)
+F (.\delay.c)(0x6A33CDB6)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+F (.\distance.c)(0x6A33CD6A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\distance.o --omf_browse .\distance.crf --depend .\distance.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x532C1500)

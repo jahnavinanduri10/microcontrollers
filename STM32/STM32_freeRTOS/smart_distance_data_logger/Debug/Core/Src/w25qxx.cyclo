@@ -1,0 +1,10 @@
+../Core/Src/w25qxx.c:4:6:CS_LOW	1
+../Core/Src/w25qxx.c:9:6:CS_HIGH	1
+../Core/Src/w25qxx.c:14:6:SPI_Write	1
+../Core/Src/w25qxx.c:18:6:SPI_Read	1
+../Core/Src/w25qxx.c:23:6:W25Q_WriteEnable	1
+../Core/Src/w25qxx.c:31:9:W25Q_ReadStatus	1
+../Core/Src/w25qxx.c:42:9:W25Q_WaitBusy	2
+../Core/Src/w25qxx.c:48:6:W25Q_EraseSector	1
+../Core/Src/w25qxx.c:64:6:W25Q_Write	1
+../Core/Src/w25qxx.c:83:6:W25Q_Read	1

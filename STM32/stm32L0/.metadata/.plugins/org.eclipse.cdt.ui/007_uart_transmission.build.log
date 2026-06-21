@@ -1,0 +1,10 @@
+16:01:44 **** Incremental Build of configuration Debug for project 007_uart_transmission ****
+make -j8 all 
+arm-none-eabi-size  007_uart_transmission.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10872	     32	   1808	  12712	   31a8	007_uart_transmission.elf
+Finished building: default.size.stdout
+ 
+
+16:01:45 Build Finished. 0 errors, 0 warnings. (took 719ms)
+

@@ -1,0 +1,10 @@
+11:22:39 **** Incremental Build of configuration Debug for project binary_semaphores ****
+make -j8 all 
+arm-none-eabi-size  binary_semaphores.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23812	    108	  18380	  42300	   a53c	binary_semaphores.elf
+Finished building: default.size.stdout
+ 
+
+11:22:40 Build Finished. 0 errors, 0 warnings. (took 364ms)
+

@@ -1,0 +1,88 @@
+#include "w25qxx.h"
+extern SPI_HandleTypeDef hspi2;
+
+void SPI_Write(uint8_t *data, uint16_t size) {
+	HAL_SPI_Transmit(&hspi1, data, size, HAL_MAX_DELAY);
+}
+
+void SPI_Read(uint8_t *data, uint16_t size) {
+	HAL_SPI_Receive(&hspi1, data, size, HAL_MAX_DELAY);
+}
+
+/* -------- FLASH -------- */
+void W25Q_WriteEnable(void) {
+	uint8_t cmd = 0x06;
+
+	CS_LOW();
+	HAL_SPI_Transmit(&hspi1, &cmd, 1, HAL_MAX_DELAY);
+	CS_HIGH();
+}
+
+uint8_t W25Q_ReadStatus(void) {
+	uint8_t tx[2] = { 0x05, 0xFF };
+	uint8_t rx[2];
+
+	CS_LOW();
+	HAL_SPI_TransmitReceive(&hspi1, tx, rx, 2, 100);
+	CS_HIGH();
+
+	return rx[1];   // ⭐ correct byte
+}
+
+uint8_t W25Q_WaitBusy(void) {
+	while (W25Q_ReadStatus() & 0x01)
+		;
+	return 0;
+}
+
+void W25Q_EraseSector(uint32_t addr) {
+	uint8_t cmd[4];
+	W25Q_WriteEnable();
+
+	cmd[0] = 0x20;
+	cmd[1] = (addr >> 16) & 0xFF;
+	cmd[2] = (addr >> 8) & 0xFF;
+	cmd[3] = addr & 0xFF;
+
+	CS_LOW();
+	SPI_Write(cmd, 4);
+	CS_HIGH();
+
+	W25Q_WaitBusy();
+}
+
+void W25Q_Write(uint32_t addr, uint8_t *data, uint16_t len) {
+	W25Q_WriteEnable();
+
+	uint8_t cmd[4];
+	cmd[0] = 0x02;
+	cmd[1] = (addr >> 16) & 0xFF;
+	cmd[2] = (addr >> 8) & 0xFF;
+	cmd[3] = addr & 0xFF;
+
+	CS_LOW();
+
+	HAL_SPI_Transmit(&hspi1, cmd, 4, HAL_MAX_DELAY);
+	HAL_SPI_Transmit(&hspi1, data, len, HAL_MAX_DELAY);
+
+	CS_HIGH();
+
+	W25Q_WaitBusy();
+}
+
+void W25Q_Read(uint32_t addr, uint8_t *data, uint16_t len) {
+	uint8_t cmd[4];
+
+	cmd[0] = 0x03;
+	cmd[1] = (addr >> 16) & 0xFF;
+	cmd[2] = (addr >> 8) & 0xFF;
+	cmd[3] = addr & 0xFF;
+
+	CS_LOW();
+
+	HAL_SPI_Transmit(&hspi1, cmd, 4, HAL_MAX_DELAY);
+
+	HAL_SPI_Receive(&hspi1, data, len, HAL_MAX_DELAY);
+
+	CS_HIGH();
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\stm32L0\008_I2C_bluetooth"/>
+			<item value="D:\stm32L0\Vehicle_Tracking_System"/>
+			<item value="D:\stm32L0\010_"/>
+			<item value="D:\stm32L0\008_I2C"/>
+			<item value="D:\stm32L0\006_ultrasonic"/>
+			<item value="D:\stm32L0\005_e_Paper_Display"/>
+			<item value="D:\stm32L0\003_touch_sensors"/>
+			<item value="D:\stm32L0\004_e_Paper_Display"/>
+			<item value="C:\Users\jahna\Downloads\005_e_Paper_Display\005_e_Paper_Display"/>
+		</list>
+		<section name="SmartImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="502"/>
+			<item key="DIALOG_Y_ORIGIN" value="35"/>
+			<item key="DIALOG_WIDTH" value="935"/>
+			<item key="DIALOG_HEIGHT" value="726"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

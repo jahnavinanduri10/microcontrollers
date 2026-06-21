@@ -1,0 +1,17 @@
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:81:9:BSP_EPD_Init	1
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:112:10:BSP_EPD_GetXSize	1
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:122:10:BSP_EPD_GetYSize	1
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:132:6:BSP_EPD_SetFont	1
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:142:8:BSP_EPD_GetFont	1
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:152:6:BSP_EPD_Clear	2
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:179:6:BSP_EPD_DisplayChar	1
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:198:6:BSP_EPD_DisplayStringAt	7
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:258:6:BSP_EPD_DisplayStringAtLine	1
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:270:6:BSP_EPD_DrawHLine	2
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:290:6:BSP_EPD_DrawVLine	2
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:311:6:BSP_EPD_DrawRect	1
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:330:6:BSP_EPD_FillRect	2
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:352:6:BSP_EPD_DrawImage	2
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:369:6:BSP_EPD_CloseChargePump	1
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:383:6:BSP_EPD_RefreshDisplay	2
+../Drivers/BSP/STM32L0538-Discovery/stm32l0538_discovery_epd.c:409:14:DrawChar	2

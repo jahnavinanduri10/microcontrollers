@@ -1,0 +1,21 @@
+19:33:37 **** Incremental Build of configuration Debug for project smart_distance_data_logger ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'vTask4_uart':
+../Core/Src/main.c:182:18: warning: unused variable 'current_count' [-Wunused-variable]
+  182 |         uint8_t  current_count = log_count;
+      |                  ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "smart_distance_data_logger.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\RTOS_stm32\smart_distance_data_logger\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="smart_distance_data_logger.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: smart_distance_data_logger.elf
+ 
+arm-none-eabi-size  smart_distance_data_logger.elf 
+arm-none-eabi-objdump -h -S smart_distance_data_logger.elf  > "smart_distance_data_logger.list"
+   text	   data	    bss	    dec	    hex	filename
+  25656	     96	  18560	  44312	   ad18	smart_distance_data_logger.elf
+Finished building: default.size.stdout
+ 
+Finished building: smart_distance_data_logger.list
+ 
+
+19:33:38 Build Finished. 0 errors, 1 warnings. (took 1s.387ms)
+

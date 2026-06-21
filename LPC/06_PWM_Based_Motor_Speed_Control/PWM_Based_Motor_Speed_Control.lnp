@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\lcd.o"
+".\main.o"
+".\delay.o"
+--strict --scatter ".\PWM_Based_Motor_Speed_Control.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\PWM_Based_Motor_Speed_Control.map" -o .\PWM_Based_Motor_Speed_Control.axf

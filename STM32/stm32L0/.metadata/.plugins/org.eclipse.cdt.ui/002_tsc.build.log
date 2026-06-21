@@ -1,0 +1,17 @@
+10:41:08 **** Build of configuration Debug for project 002_tsc ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L053xx -c -I"D:/stm32L0/first/Drivers/BSP/Components" -I"D:/stm32L0/first/Drivers/BSP/Components/Common" -I"D:/stm32L0/first/Drivers/BSP" -I"D:/stm32L0/first/Drivers/BSP/Components/gde021a1" -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "002_tsc.elf" @"objects.list"   -mcpu=cortex-m0plus -T"D:\stm32L0\002_tsc\STM32L053C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002_tsc.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 002_tsc.elf
+ 
+arm-none-eabi-size  002_tsc.elf 
+arm-none-eabi-objdump -h -S 002_tsc.elf  > "002_tsc.list"
+   text	   data	    bss	    dec	    hex	filename
+   8380	     12	   1788	  10180	   27c4	002_tsc.elf
+Finished building: default.size.stdout
+ 
+Finished building: 002_tsc.list
+ 
+
+10:41:11 Build Finished. 0 errors, 0 warnings. (took 3s.367ms)
+

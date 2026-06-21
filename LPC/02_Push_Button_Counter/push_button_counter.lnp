@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\main.o"
+--strict --scatter ".\push_button_counter.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\push_button_counter.map" -o .\push_button_counter.axf

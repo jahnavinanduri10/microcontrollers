@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\01_led_source.o"
+".\delay.o"
+".\lpc2148_gpio_driver.o"
+--library_type=microlib --strict --scatter ".\01_LED_Blinking_Pattern.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\01_LED_Blinking_Pattern.map" -o .\01_LED_Blinking_Pattern.axf
